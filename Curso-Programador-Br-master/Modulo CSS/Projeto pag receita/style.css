@@ -1,0 +1,98 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "lato", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.barra-de-topo {
+    background-color: #ff6b28;
+    padding: 20px;
+    text-align: center;
+}
+
+#cabecalho {
+    background: url("./images/ima.png");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.conteudo {
+    margin: auto;
+    max-width: 990px;
+    padding: 0 40px;
+    margin-top: 100px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #ff6b28;
+}
+
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 48px;
+}
+
+.cartao {
+
+    padding: 78px 180px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.cartao:hover {
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+}
+
+.botao-compra {
+    background-color: #ff6b28;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+
+
+}
+
+li {
+    margin-bottom: 14px;
+    line-height: 28px;
+}
+
+.lista-imgredientes {
+    margin-bottom: 50px;
+}
+
+p {
+    line-height: 28px;
+}
+
+.rodape {
+    background-color: #ff6b28;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.rodape-texto {
+    max-width: 500px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 28px;
+}
